@@ -9,8 +9,6 @@ class TransactionList extends StatelessWidget {
 
   TransactionList(this.transactions, this.deleteTx);
 
-  get i => null;
-
   @override
   Widget build(BuildContext context) {
     return Container(
